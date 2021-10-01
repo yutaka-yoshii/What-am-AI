@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T00:36:17.214Z" agent="5.0 (Windows)" etag="tYqrqpvhevkenq-3u5su" version="15.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T00:38:38.815Z" agent="5.0 (Windows)" etag="BbTYbRkPJfVYfjnDkM77" version="15.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="901" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         <mxCell id="rQSQRhXncEevtpZolHTA-32" value="全ての相違要素について以上を実行" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="700" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-33" value="&lt;div&gt;その要素は原因または結果の要素か&lt;/div&gt;&lt;div&gt;それとも変数（抽象概念）か&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rQSQRhXncEevtpZolHTA-33" value="抽象概念の拡張はどんなケース？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="560" y="440" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
