@@ -1,64 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T00:40:59.439Z" agent="5.0 (Windows)" etag="pgdWB_0kvi1I0OlFI6Vd" version="15.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T15:17:23.563Z" agent="5.0 (iPad; CPU OS 14_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/94.0.4606.52 Mobile/15E148 Safari/604.1" etag="G-PHAPswTYydkbYFG8kc" version="15.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="901" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2097" dy="2494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="rQSQRhXncEevtpZolHTA-4" value="&lt;div&gt;因果関係の各要素の長さ&lt;/div&gt;&lt;div&gt;（原因の数、それぞれの長さ、&lt;/div&gt;&lt;div&gt;結果の長さ、変数の数）は&lt;/div&gt;&lt;div&gt;一致しているか？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rQSQRhXncEevtpZolHTA-4" value="&lt;div&gt;因果関係の各要素の長さ&lt;/div&gt;&lt;div&gt;（原因の数、それぞれの長さ、&lt;/div&gt;&lt;div&gt;結果の長さ、変数の数）は&lt;/div&gt;&lt;div&gt;一致しているか？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="40" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-5" value="&lt;div&gt;変数の適用先は&lt;/div&gt;&lt;div&gt;全て一致しているか？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rQSQRhXncEevtpZolHTA-5" value="&lt;div&gt;変数の適用先は&lt;/div&gt;&lt;div&gt;全て一致しているか？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="200" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-8" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rQSQRhXncEevtpZolHTA-4" target="rQSQRhXncEevtpZolHTA-5">
+        <mxCell id="rQSQRhXncEevtpZolHTA-8" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rQSQRhXncEevtpZolHTA-4" target="rQSQRhXncEevtpZolHTA-5" edge="1">
           <mxGeometry x="0.2" y="20" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="210" y="170" as="sourcePoint" />
             <mxPoint x="210" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-9" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rQSQRhXncEevtpZolHTA-4">
+        <mxCell id="rQSQRhXncEevtpZolHTA-9" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rQSQRhXncEevtpZolHTA-4" edge="1">
           <mxGeometry y="20" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="170" y="180" as="sourcePoint" />
             <mxPoint x="320" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-11" value="&lt;div&gt;原因・結果の要素、および&lt;/div&gt;&lt;div&gt;変数の先頭要素（抽象概念）のうち&lt;/div&gt;&lt;div&gt;相違は2要素以内か？&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rQSQRhXncEevtpZolHTA-11" value="&lt;div&gt;原因・結果の要素、および&lt;/div&gt;&lt;div&gt;変数の先頭要素（抽象概念）のうち&lt;/div&gt;&lt;div&gt;相違は2要素以内か？&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="320" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-15" value="タスクリスト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rQSQRhXncEevtpZolHTA-15" value="タスクリスト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="460" y="30" width="330" height="250" as="geometry">
             <mxRectangle x="200" y="465" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-16" value="抽象概念を拡張・修正した場合は、その元となった抽象概念を参照していたすべての因果関係について、拡張・修正後の抽象概念でも成立するかを確認（仮説化して検証）し、それがより有効であれば元の因果関係は非アクティブにする。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" vertex="1" parent="rQSQRhXncEevtpZolHTA-15">
+        <mxCell id="rQSQRhXncEevtpZolHTA-16" value="抽象概念を拡張・修正した場合は、その元となった抽象概念を参照していたすべての因果関係について、拡張・修正後の抽象概念でも成立するかを確認（仮説化して検証）し、それがより有効であれば元の因果関係は非アクティブにする。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" parent="rQSQRhXncEevtpZolHTA-15" vertex="1">
           <mxGeometry y="30" width="330" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-17" value="同様の因果関係を示す複数の信念があったときに、よりシンプルで包括的な方を残し、そうでないほうを非アクティブにする機能（オッカムの剃刀）を実装する" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" vertex="1" parent="rQSQRhXncEevtpZolHTA-15">
+        <mxCell id="rQSQRhXncEevtpZolHTA-17" value="同様の因果関係を示す複数の信念があったときに、よりシンプルで包括的な方を残し、そうでないほうを非アクティブにする機能（オッカムの剃刀）を実装する" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" parent="rQSQRhXncEevtpZolHTA-15" vertex="1">
           <mxGeometry y="120" width="330" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-27" value="※ここに項目を増やすときはヘッダーをクリックし、フォーマットパネル-Arrange-Tableから行の追加ボタンをクリック" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" vertex="1" parent="rQSQRhXncEevtpZolHTA-15">
+        <mxCell id="rQSQRhXncEevtpZolHTA-27" value="※ここに項目を増やすときはヘッダーをクリックし、フォーマットパネル-Arrange-Tableから行の追加ボタンをクリック" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" parent="rQSQRhXncEevtpZolHTA-15" vertex="1">
           <mxGeometry y="180" width="330" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-28" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rQSQRhXncEevtpZolHTA-5" target="rQSQRhXncEevtpZolHTA-11">
+        <mxCell id="rQSQRhXncEevtpZolHTA-28" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rQSQRhXncEevtpZolHTA-5" target="rQSQRhXncEevtpZolHTA-11" edge="1">
           <mxGeometry x="0.2" y="20" relative="1" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="170" y="170.0000000000001" as="sourcePoint" />
             <mxPoint x="170" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-29" value="&lt;div&gt;その要素は原因または結果の要素か&lt;/div&gt;&lt;div&gt;それとも変数（抽象概念）か&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rQSQRhXncEevtpZolHTA-29" value="&lt;div&gt;その要素は原因または結果の要素か&lt;/div&gt;&lt;div&gt;それとも変数（抽象概念）か&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="320" y="440" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-31" value="全ての相違要素について以下を実行" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rQSQRhXncEevtpZolHTA-31" value="全ての相違要素について以下を実行" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="440" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-32" value="全ての相違要素について以上を実行" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rQSQRhXncEevtpZolHTA-32" value="全ての相違要素について以上を実行" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="700" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-33" value="抽象概念の拡張はどんなケース？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rQSQRhXncEevtpZolHTA-33" value="抽象概念の拡張はどんなケース？" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="560" y="440" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="stL6BEXCDKTnS7UchjuC-1" value="新たな因果関係の仮説を得るケース" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;pointerEvents=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="10" width="360" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
