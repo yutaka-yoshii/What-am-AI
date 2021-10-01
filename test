@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-01T00:18:35.790Z" agent="5.0 (Windows)" etag="k8jzv2K-t_Yi4wzBuilD" version="15.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-01T00:36:17.214Z" agent="5.0 (Windows)" etag="tYqrqpvhevkenq-3u5su" version="15.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1094" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="901" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -24,7 +24,7 @@
             <mxPoint x="320" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rQSQRhXncEevtpZolHTA-11" value="&lt;div&gt;原因・結果の要素、および&lt;/div&gt;&lt;div&gt;変数の先頭要素（抽象概念）のうち&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rQSQRhXncEevtpZolHTA-11" value="&lt;div&gt;原因・結果の要素、および&lt;/div&gt;&lt;div&gt;変数の先頭要素（抽象概念）のうち&lt;/div&gt;&lt;div&gt;相違は2要素以内か？&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="320" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="rQSQRhXncEevtpZolHTA-15" value="タスクリスト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -40,6 +40,25 @@
         </mxCell>
         <mxCell id="rQSQRhXncEevtpZolHTA-27" value="※ここに項目を増やすときはヘッダーをクリックし、フォーマットパネル-Arrange-Tableから行の追加ボタンをクリック" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" vertex="1" parent="rQSQRhXncEevtpZolHTA-15">
           <mxGeometry y="180" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-28" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rQSQRhXncEevtpZolHTA-5" target="rQSQRhXncEevtpZolHTA-11">
+          <mxGeometry x="0.2" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="170" y="170.0000000000001" as="sourcePoint" />
+            <mxPoint x="170" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-29" value="&lt;div&gt;その要素は原因または結果の要素か&lt;/div&gt;&lt;div&gt;それとも変数（抽象概念）か&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="440" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-31" value="全ての相違要素について以下を実行" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="440" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-32" value="全ての相違要素について以上を実行" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="700" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-33" value="&lt;div&gt;その要素は原因または結果の要素か&lt;/div&gt;&lt;div&gt;それとも変数（抽象概念）か&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="440" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
