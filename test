@@ -1,1 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T23:25:47.870Z" agent="5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/94.0.4606.52 Mobile/15E148 Safari/604.1" version="15.4.0" etag="KMuenjegFfmja1B6d5Kx" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-01T00:18:35.790Z" agent="5.0 (Windows)" etag="k8jzv2K-t_Yi4wzBuilD" version="15.4.0" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1094" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="rQSQRhXncEevtpZolHTA-4" value="&lt;div&gt;因果関係の各要素の長さ&lt;/div&gt;&lt;div&gt;（原因の数、それぞれの長さ、&lt;/div&gt;&lt;div&gt;結果の長さ、変数の数）は&lt;/div&gt;&lt;div&gt;一致しているか？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="40" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-5" value="&lt;div&gt;変数の適用先は&lt;/div&gt;&lt;div&gt;全て一致しているか？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="200" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-8" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rQSQRhXncEevtpZolHTA-4" target="rQSQRhXncEevtpZolHTA-5">
+          <mxGeometry x="0.2" y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="210" y="170" as="sourcePoint" />
+            <mxPoint x="210" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-9" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rQSQRhXncEevtpZolHTA-4">
+          <mxGeometry y="20" relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="170" y="180" as="sourcePoint" />
+            <mxPoint x="320" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-11" value="&lt;div&gt;原因・結果の要素、および&lt;/div&gt;&lt;div&gt;変数の先頭要素（抽象概念）のうち&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="320" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-15" value="タスクリスト" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="30" width="330" height="250" as="geometry">
+            <mxRectangle x="200" y="465" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-16" value="抽象概念を拡張・修正した場合は、その元となった抽象概念を参照していたすべての因果関係について、拡張・修正後の抽象概念でも成立するかを確認（仮説化して検証）し、それがより有効であれば元の因果関係は非アクティブにする。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" vertex="1" parent="rQSQRhXncEevtpZolHTA-15">
+          <mxGeometry y="30" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-17" value="同様の因果関係を示す複数の信念があったときに、よりシンプルで包括的な方を残し、そうでないほうを非アクティブにする機能（オッカムの剃刀）を実装する" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" vertex="1" parent="rQSQRhXncEevtpZolHTA-15">
+          <mxGeometry y="120" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rQSQRhXncEevtpZolHTA-27" value="※ここに項目を増やすときはヘッダーをクリックし、フォーマットパネル-Arrange-Tableから行の追加ボタンをクリック" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;" vertex="1" parent="rQSQRhXncEevtpZolHTA-15">
+          <mxGeometry y="180" width="330" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
